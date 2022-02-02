@@ -7,7 +7,7 @@ Repo for the paper: "Agree to Disagree: Diversity through Disagreement for Bette
 
 To reproduce the 2D D-BAT results (Figure 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_2D_example.ipynb).
 
-### Results on avoiding shortcut
+### Results on avoiding shortcuts
 
 * To reproduce the C-MNIST and C-MNIST-half results (Table 1), see [this notebook]()
 * To reproduce the MM-Dominoes results (Table 1), see [this notebook]()
