@@ -9,10 +9,10 @@ To reproduce the 2D D-BAT results (Figure 1), see [this notebook](https://github
 
 ### Results on avoiding shortcuts
 
-* To reproduce the C-MNIST and C-MNIST-half results (Table 1), see [this notebook]()
-* To reproduce the MM-Dominoes results (Table 1), see [this notebook]()
-* To reproduce the MF-Dominoes results (Table 1), see [this notebook]()
-* To reproduce the MC-Dominoes results (Table 1), see [this notebook]()
+* To reproduce the C-MNIST and C-MNIST-half results (Table 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_C_MNIST.ipynb)
+* To reproduce the MM-Dominoes results (Table 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_M_M_Dominoes.ipynb)
+* To reproduce the MF-Dominoes results (Table 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_M_F_Dominoes.ipynb)
+* To reproduce the MC-Dominoes results (Table 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_M_C_Dominoes.ipynb)
 
 ### Results on uncertainty and OOD detection
 
