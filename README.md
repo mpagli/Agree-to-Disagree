@@ -16,5 +16,5 @@ To reproduce the 2D D-BAT results (Figure 1), see [this notebook](https://github
 
 ### Results on uncertainty and OOD detection
 
-* To reproduce results on the MNIST OOD setup (Figure 3), see [this notebook]()
-* To reproduce results on the CIFAR10 OOD setup (Figure 4), see [this notebook]()
+* To reproduce results on the MNIST OOD setup (Figure 3), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_MNIST_Uncertainty.ipynb)
+* To reproduce results on the CIFAR10 OOD setup (Figure 4), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_CIFAR10_OOD_CIFAR100_MCDropout.ipynb)
