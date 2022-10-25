@@ -7,12 +7,19 @@ Repository for the paper: "Agree to Disagree: Diversity through Disagreement for
 
 To reproduce the 2D D-BAT results (Figure 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_2D_example.ipynb).
 
-### Results on avoiding shortcuts
+### Results on datasets with completely spurious correlation
 
-* To reproduce the C-MNIST and C-MNIST-half results (Table 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_C_MNIST.ipynb) (`notebooks/D_BAT_C_MNIST.ipynb`)
-* To reproduce the MM-Dominoes results (Table 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_M_M_Dominoes.ipynb) (`notebooks/D_BAT_M_M_Dominoes.ipynb`)
-* To reproduce the MF-Dominoes results (Table 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_M_F_Dominoes.ipynb) (`notebooks/D_BAT_M_F_Dominoes.ipynb`)
+* To reproduce the C-MNIST results, see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_C_MNIST.ipynb) (`notebooks/D_BAT_C_MNIST.ipynb`)
+* To reproduce the MF-Dominoes results, see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_M_F_Dominoes.ipynb) (`notebooks/D_BAT_M_F_Dominoes.ipynb`)
 * To reproduce the MC-Dominoes results (Table 1), see [this notebook](https://github.com/mpagli/Agree-to-Disagree/blob/main/notebooks/D_BAT_M_C_Dominoes.ipynb) (`notebooks/D_BAT_M_C_Dominoes.ipynb`)
+
+### Results on "natural" datasets
+
+Install WILDS: `pip install wilds`
+
+* To reproduce the Waterbirds results, run `train-waterbird.sh`.
+* To reproduce the Camelyon17 dataset, run `train-camelyon.sh`.
+* To reproduce the results on the Office-Home dataset, first download the data (see `datasets/README.md` for link), then run `train-office-home-ood_is_test.sh` and `train-office-home-ood_is_not_test.sh`
 
 ### Results on uncertainty and OOD detection
 
